@@ -1,0 +1,232 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 64px;
+  }
+  
+  .navbar-nav {
+    display: inline-flex;
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  
+  .material-icons-outlined {
+    color: black;
+  }
+  
+  .a {
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .a:hover {
+    color: skyblue;
+  }
+  
+  .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color:white;
+    padding:.3rem 2rem;
+    border:.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.9rem;
+  }
+  
+  .btn:hover{
+ 
+    color:orange;
+  }
+  
+  .home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .home .content{
+    text-align: center;
+  }
+  
+  .home .content h1{
+    font-size: 4rem;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 0 0.2rem 0.2rem black;
+  }
+  
+  .home .content p{
+    font-size: 1.7rem;
+    color:white;
+    padding:.5rem 0;
+  }
+  
+  .home .video-container video{
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .home .controls{
+    padding:0.5rem;
+    border-radius: 5rem;
+    background:rgba(0,0,0);
+    position: relative;
+    top: 6rem;
+    padding-bottom:0.2rem ;
+  }
+  
+  .home .controls .vid-btn{
+    height:1.3rem;
+    width:1.3rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    margin:0 .5rem;
+  }
+  
+  .home .controls .vid-btn.active{
+    background: orange;
+  }
+  
+  .book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:4rem;
+    align-items: center;
+  }
+  
+  .book .row .image{
+    flex:1 1 20rem;
+  }
+  
+  .book .row .image img{
+    width:80%;
+    margin-left: 5rem;
+  }
+  
+  .book .row form{
+    margin-right: 5rem;
+    flex:1 1 20rem;
+    padding:2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,1);
+    border-radius: .5rem;
+    
+  }
+  
+  .book .row form .inputBox{
+    padding: 0;
+  }
+  
+  .book .row form .inputBox input{
+    width:100%;
+    padding: 0.5rem;
+    border:.1rem solid rgba(0,0,0,1);
+    font-size: 1.3rem;
+    color:#333;
+    text-transform: none;
+  }
+  
+  .book .row form .inputBox h3{
+    font-size: 1.5rem;
+    color:#666;
+  }
+  
+  .heading{
+    text-align: center;
+    padding:2.5rem 0
+  }
+  
+  .heading span{
+    font-size: 2.5rem;
+    background:orange;
+    color:var(--orange);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+  }
+  
+  .heading span.space{
+    background:none;
+}
+.main-left .bar .title{
+  z-index: 0;
+  position: relative;
+}
+.title::before{
+  top: 0;
+    left: -8px;
+    width: 24px;
+    bottom: 0;
+    height: 24px;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(194, 249, 255, 1);
+}
+.container{
+ padding-left: 25px;
+ padding-top: 25px;
+display: block;
+box-sizing: border-box;
+
+}
+
+.main-about{
+    margin-top: 8px;
+}
+.main-about .main-head {
+display: flex;    
+box-shadow: none;
+font-weight: 400;
+text-transform: none;
+background-color: white;
+cursor: pointer;
+
+}
+.main-about .main-root{
+    display: flex;
+}
+.main-container{
+  display: flex;
+  padding: 0 96px;
+}
+.main-container .main-left{
+  float: left;
+  box-shadow: 0px 0px 5px 5px rgb(222, 223, 224);
+}
+
+.room-contanier{
+  border:1px dashed #e0e0e0
+}
+.room-rate{
+  border-radius: 4px;
+  background-color: #fff;
+  
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: 0em;
+}
+
+.container-pay  {
+  float: left;
+ border-radius: 100px;
+
+}
+.container-pay .btn{
+    font-size: 1.rem;
+}
