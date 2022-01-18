@@ -29,7 +29,7 @@ if(mysqli_num_rows($result01) > 0){
        header("location:login.php");
    }else{
        $error=" Can not insert record.Please check";
-       header("location: sign up .php?error=$error");
+       header("location: sign up.php?error=$error");
    }
 
 }

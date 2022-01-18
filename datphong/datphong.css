@@ -26,7 +26,9 @@
   .a:hover {
     color: skyblue;
   }
-  
+  .header-right .row{
+   cursor: pointer;
+  }
   .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -161,72 +163,74 @@
   .heading span.space{
     background:none;
 }
-.main-left .bar .title{
-  z-index: 0;
-  position: relative;
-}
-.title::before{
-  top: 0;
-    left: -8px;
-    width: 24px;
-    bottom: 0;
-    height: 24px;
-    content: "";
-    z-index: -1;
-    position: absolute;
-    border-radius: 50%;
-    background-color: rgba(194, 249, 255, 1);
-}
 .container{
- padding-left: 25px;
- padding-top: 25px;
-display: block;
-box-sizing: border-box;
-
-}
-
-.main-about{
-    margin-top: 8px;
-}
-.main-about .main-head {
-display: flex;    
-box-shadow: none;
-font-weight: 400;
-text-transform: none;
-background-color: white;
-cursor: pointer;
-
-}
-.main-about .main-root{
-    display: flex;
-}
-.main-container{
-  display: flex;
-  padding: 0 96px;
-}
-.main-container .main-left{
-  float: left;
-  box-shadow: 0px 0px 5px 5px rgb(222, 223, 224);
-}
-
-.room-contanier{
-  border:1px dashed #e0e0e0
-}
-.room-rate{
-  border-radius: 4px;
-  background-color: #fff;
+    margin: 80px ;
+  }
+  .main-content{
+    margin: 96px ;
+  }
+ 
+  .main-content .main-left .row1 .info-user{
+    box-shadow: 0px 0px 5px 5px rgb(222, 223, 224);
+    border: 1px solid rgb(222, 223, 224); 
+   
+  }
   
-}
-.form-check .form-check-input {
-  float: left;
-  margin-left: 0em;
-}
-
-.container-pay  {
-  float: left;
- border-radius: 100px;
-
-}
-.container-pay .btn{
-    font-size: 1.rem;
+  .main-content .main-left .title{
+    z-index: 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .main-content .main-left .title::before{
+      top: 0;
+      width: 24px;
+      bottom: 0;
+      height: 24px;
+      content: "";  
+      z-index: -1;
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(194, 249, 255, 1);
+  }
+ .my-info{
+  text-align: justify;
+   margin:40px ;
+    
+  }
+  .h-center{
+    box-shadow: 0px 0px 5px 5px rgb(222, 223, 224);
+    border: 1px solid rgb(222, 223, 224); 
+  
+  }
+  .main-content .main-left .h-center .main-about1 .title2{
+    z-index: 1;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .main-content .main-left .title2::before{
+      top: 0;
+      width: 24px;
+      bottom: 0;
+      height: 24px;
+      content: "";
+      z-index: -1;
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(194, 249, 255, 1);
+  }
+  .main-about .main-head {
+  display: flex;    
+  box-shadow: none;
+  font-weight: 400;
+  text-transform: none;
+  background-color: white;
+  cursor: pointer;  
+  }
+  .form-check .form-check-input {
+    float: left;
+    margin-left: 0em;
+  }
+.frames {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
